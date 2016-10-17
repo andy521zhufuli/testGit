@@ -1,0 +1,30 @@
+{
+  "name": "testGit",
+  "version": "1.0.0",
+  "description": "--------------- > this is my test",
+  "main": "test.js",
+  "dependencies": {
+    "cz-conventional-changelog": "^1.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -w -r 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andy521zhufuli/testGit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andy521zhufuli/testGit/issues"
+  },
+  "homepage": "https://github.com/andy521zhufuli/testGit#readme",
+  "config": {
+    "ghooks": {
+      "commit-msg": "./validate-commit-msg.js"
+    }
+  }
+}
