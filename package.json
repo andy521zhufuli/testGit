@@ -1,5 +1,31 @@
-"config": {
+{
+  "name": "testGit",
+  "version": "1.0.0",
+  "description": "--------------- > this is my test",
+  "main": "validate-commit-msg.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andy521zhufuli/testGit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andy521zhufuli/testGit/issues"
+  },
+  "homepage": "https://github.com/andy521zhufuli/testGit#readme",
+  "devDependencies": {
+    "cz-conventional-changelog": "^1.2.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    },
     "ghooks": {
-      "commit-msg": "./validate-commit-msg.js"
+      "commit-msg":"./validate-commit-msg"
     }
   }
+}
