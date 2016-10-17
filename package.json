@@ -1,0 +1,5 @@
+"config": {
+    "ghooks": {
+      "commit-msg": "./validate-commit-msg.js"
+    }
+  }
