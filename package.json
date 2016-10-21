@@ -1,6 +1,6 @@
 {
   "name": "testGit",
-  "version": "1.0.0",
+  "version": "2.3.0",
   "description": "--------------- > this is my test",
   "main": "test.js",
   "dependencies": {
